@@ -1,0 +1,106 @@
+
+.fontnav, .textnav, .navcolor {
+    width: 30%;
+    display: inline-flex;
+}
+#colorbox .ptitle, #fontboxtitle .ptitle, #textstylesboxtitle .ptitle  {
+  font-size: 35px;
+}
+.navigation li {
+  border: 1px solid black;
+  font-size:20px; 
+  padding: 0.2em;
+  display: inline-block;
+  background-color: grey;
+  text-align: center;
+}
+.navigation a {
+  text-decoration: none; 
+}
+
+.colors li {
+  border: 1px solid black;
+  font-size:30px; 
+  padding: 0.2em;
+  display: inline-flex;
+  justify-content: space-between
+  background-color: grey;
+  text-align: center;
+}
+.colors .colorblue {
+  width: 30%;
+  background-color: blue;
+  justify-self: stretch;
+}
+.colors .colorred {
+  width: 30%;
+  background-color: red;
+  justify-self: stretch;
+}
+.colors .colorgreen {
+  width: 30%;
+  background-color: green;
+  justify-self: stretch;
+}
+
+#colorbox p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fontbox .abril {
+  font-family: "Abril Fatface";
+}
+.fontbox .imperial {
+  font-family: "Imperial Script";
+}
+#fontboxtitle p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.fontbox ul li {
+  justify-self: stretch;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  border: 1px solid black;
+  font-size:30px; 
+  padding: 0.2em;
+  text-align: center;
+}
+.fontbox .abril {
+  width: 40%;
+  height: 300px;
+  margin-top: ;
+}
+.fontbox .imperial {
+  font-family: "Imperial Script";
+  width: 40%;
+  height: 300px;
+}
+#textstylesboxtitle p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textstylesbox ul li {
+  border-radius: 5px;
+  display: block;
+  vertical-align: top;
+  border: 1px solid black;
+  font-size:30px; 
+  padding: 0.2em;
+  text-align: left;
+.headers {
+  width: strech;
+}
+.abril-span {
+  font-family: "Abril Fatface"
+}
+.imperial-span {
+  font-family: "Imperial Script";
+}
