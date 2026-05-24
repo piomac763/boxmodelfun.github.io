@@ -64,6 +64,8 @@
   text-align: center;
 }
 .fontbox ul li {
+    width: 100%;
+    gap: 10%;
   justify-self: stretch;
   border-radius: 5px;
   display: inline-block;
